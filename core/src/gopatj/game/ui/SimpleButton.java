@@ -9,7 +9,6 @@ import gopatj.game.raindropHelpers.AssetLoader;
 public class SimpleButton {
 
     private float x, y, width, height;
-    int q =1 ;
 
     private TextureRegion buttonUp; //тектура отпущенной кнопки
     private TextureRegion buttonDown; //тектура нажатой кнопки
