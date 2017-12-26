@@ -502,11 +502,11 @@ public class GameScreen implements Screen {
             if (count > random(3, 6)) { //если счетчик капель в линии достиг лимита
                 //то меняем место новой линии
                 //если не выходит за границы экрана, то в создаем новую линию в случайном месте
-                if (xPos + 150 + rainDropWidth < 480 && xPos - 150 > 0)
+                if (xPos + 150 + rainDropWidth <= 480 && xPos - 150 >= 0)
                     xPos += random(-150, 150);
-                else if (xPos + 150 + rainDropWidth > 480)
+                else if (xPos + 150 + rainDropWidth > 480) //выходит за правую границу
                     xPos += random(-150, 0);
-                else if (xPos - 150 < 0)
+                else if (xPos - 150 < 0) //выходит за левую границу
                     xPos += random(0, 150);
                 count = 0;
             }
