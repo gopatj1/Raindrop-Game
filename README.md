@@ -11,7 +11,7 @@ Features:
 - 3 levels of difficulty;
 - 3 types of controls: touch screen, touch buttons and accelerometer.
 
-You can download it on your Android device be ref https://play.google.com/store/apps/details?id=gopatj.game
+You can download it on your Android device be ref https://play.google.com/store/apps/details?id=gopatj.game 
 
 <p align="left">
   <img src="PreviewVideo.gif" width="400" height="280"/>
